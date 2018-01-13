@@ -2,7 +2,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-/* Nav bar */
+/*** NAV BAR ***/
 .navbar{
 	background-color: white;
 	border: none;
@@ -19,7 +19,7 @@
 	max-width: 101.2%;
 }
 
-/* Section Disfruta del viaje */
+/*** SECTION DISFRUTA DEL VIAJE ***/
 .intro {
 	background-color: #f7b617;
 	color: #fff;
@@ -134,12 +134,10 @@
 	margin-top: -1em;
 }
 
-
-
+/*** SECTION TARIFAS ***/
 #map {
 	height: 500px;
 	width: 100%;
-
 }
 
 .map {
@@ -152,16 +150,15 @@
 	background-color: transparent;
 }
 
+/*** FOOTER ***/
 .footer {
 	background-color: #2B2B2B;
 	color: #fff;
-
 }
 
 .footer-logo {
 	margin-top: 3em;
 }
-
 
 .style-list {
 	list-style: none;
@@ -169,26 +166,19 @@
 }
 
 .download {
-	margin-top: 13em;
+	margin-top: 16em;
 }
+
 .download > img {
 	margin-top: 3em;
 }
-.fa {
+
+.fa-icon {
 	margin-left: 0.25em;
 	margin-top: 22.7em;
 }
- .submit2 {
-	 width: 100%;
- }
 
- .tt {
-	 color: #2b2b2b;
-	 text-align: center;
-	 margin-top: 0.7em;
- }
-
-/* Login Modal */
+/*** LOGIN MODAL ***/
 .loginmodal-container {
   padding: 30px;
   max-width: 350px;
@@ -221,7 +211,7 @@
   background: #fff;
   border: 1px solid #d9d9d9;
   border-top: 1px solid #c0c0c0;
-  /* border-radius: 2px; */
+  border-radius: 2px;
   padding: 0 8px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -242,13 +232,9 @@
   font-weight: 700;
   height: 36px;
   padding: 0 8px;
-/* border-radius: 3px; */
-/* -webkit-user-select: none;
-  user-select: none; */
 }
 
 .loginmodal-submit {
-  /* border: 1px solid #3079ed; */
   border: 0px;
   color: #fff;
   text-shadow: 0 1px rgba(0,0,0,0.1);
@@ -256,7 +242,6 @@
   padding: 17px 0px;
   font-family: roboto;
   font-size: 14px;
-  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
 }
 
 .loginmodal-container a {
@@ -273,8 +258,7 @@
   font-size: 12px;
 }
 
-/*Register modal*/
-
+/*** REGISTER MODAL ***/
 .center {
     margin-top:50px;
 }
@@ -297,4 +281,46 @@
 
 .modal-footer .btn-group:last-child > button {
 	border-right: 0;
+}
+
+.find-us {
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+.acount {
+	width: 100%;
+	background-color: #2b2b2b;
+}
+
+.txt-register {
+	color: #2b2b2b;
+	text-align: center;
+	margin-top: 0.7em;
+}
+
+.submit2 {
+	width: 100%;
+}
+
+/*** BECOME A DRIVER MODAL ***/
+.text-modal3 {
+	color: gray;
+	font-size: 0.8em;
+	margin-top: -0.8em;
+}
+
+.txt {
+	color: #2b2b2b;
+	margin-top: 0.7em;
+	font-weight: 700;
+}
+
+.txt2 {
+	color: #2b2b2b;
+	margin: -0.3em 0 2em;
+}
+
+.align {
+	text-align: left;
 }

@@ -6,12 +6,13 @@
     <title> Lab < ar </title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/e039e58d4f.js"></script>
+    <link rel="shortcut icon" href="assets/images/favicon.jpg">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
 
-    <!-- Nav bar -->
+    <!-- NAV BAR -->
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -45,9 +46,8 @@
         </div>
       </div>
     </nav>
-    <!-- End Nav bar -->
 
-    <!-- Section Disfruta del viaje -->
+    <!-- SECTION DISFRUTA DEL VIAJE -->
     <div class="row">
       <div class="col-sm-12">
       <img src="assets/images/taxi.jpg" class="img-responsive" alt="Responsive image">
@@ -57,7 +57,6 @@
           <h2 class="style-h2">Eres dueño de tu tiempo</h2>
           <h3 class="text-inline">Viaja con</h3> <img class="logo-blanco" src="assets/images/logoBlanco.png" alt="">
           <div><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-default btn-intro">REGÍSTRATE</button></div>
-          <h4 class="line-or">o bien</h4>
           <!-- Register Modal -->
           <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -67,8 +66,8 @@
                 </div>
                 <div class="modal-body">
                   <form>
-                    <input type="submit" name="login" class="login loginmodal-submit submit2" value="¿Ya tienes cuenta?">
-                    <p class="tt">O CREA UNA CUENTA NUEVA</p>
+                    <input type="submit" name="login" class="login loginmodal-submit acount" value="¿Ya tienes cuenta?">
+                    <p class="txt-register">O CREA UNA CUENTA NUEVA</p>
                     <div class="form-group">
                       <input type="nombre" class="form-control" placeholder="Nombre">
                     </div>
@@ -91,7 +90,7 @@
                       <input type="codigo" class="form-control" placeholder="(Opcional) Código de invitación">
                     </div>
                     <div class="dropdown">
-                      <button class="btn btn-default dropdown-toggle submit2" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      <button class="btn btn-default dropdown-toggle find-us" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         ¿Cómo te enteraste de nosotros?
                         <span class="caret"></span>
                       </button>
@@ -99,8 +98,6 @@
                         <li><a href="#">Action</a></li>
                         <li><a href="#">Another action</a></li>
                         <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
                       </ul>
                     </div>
                     <input type="submit" name="login" class="login loginmodal-submit submit2" value="Enviar">
@@ -110,12 +107,92 @@
             </div>
           </div>
           <!-- End Register Modal-->
-          <a class="btn btn-default btn-intro" href="#" role="button">Conviértete en conductor</a>
+          <h4 class="line-or">o bien</h4>
+          <div><button data-toggle="modal" data-target="#squarespaceModal2" class="btn btn-default btn-intro">Conviértete en conductor</button></div>
+          <!-- Become a Driver Modal -->
+          <div class="modal fade" id="squarespaceModal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="dropdown">
+                      <p class="txt pull-left">¿Tienes vehículo de 4 puertas?</p>
+                      <button class="btn btn-default dropdown-toggle find-us align" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Si
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                    <div class="dropdown">
+                      <p class="txt pull-left">Marca</p>
+                      <button class="btn btn-default dropdown-toggle find-us align" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Elige la marca del vehículo
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                      </ul>
+                      <p class="text-modal3">¿No ves tu vehículo en la lista? Envía un correo electrónico a <a href="#">sociosmdv@labcar.com</a></p>
+                    </div>
+                    <div class="dropdown">
+                      <p class="txt pull-left">Modelo</p>
+                      <button class="btn btn-default dropdown-toggle find-us align" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        modelo1
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                    <div class="dropdown">
+                      <p class="txt pull-left">Año</p>
+                      <button class="btn btn-default dropdown-toggle find-us align" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        2017
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                    <div class="dropdown">
+                      <p class="txt pull-left">Número de la matrícula</p>
+                      <button class="btn btn-default dropdown-toggle find-us align" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Número de la matrícula
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                      </ul>
+                      <p class="txt2 pull-left">La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
+                    </div>
+                    <input type="submit" name="login" class="login loginmodal-submit submit2" value="Enviar">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Become a Driver Modal-->
         </div>
       </div>
       </div>
     </div>
 
+    <!-- SECTION NUEVA APP -->
     <div class="row">
       <div class="col-sm-12 info">
         <div class="col-md-10 border-white col-sm-offset-1">
@@ -133,6 +210,7 @@
       </div>
     </div>
 
+    <!-- SECTION CONDUCE CUANDO QUIERAS -->
     <div class="row">
       <div class="col-sm-12">
       <img src="assets/images/conduce.jpg" class="img-responsive" alt="Responsive image">
@@ -146,6 +224,8 @@
       </div>
     </div>
 
+
+    <!-- SECTION TARIFAS -->
     <div class="row">
       <div class="col-sm-12 info">
           <div class="row">
@@ -170,6 +250,7 @@
       </div>
     </div>
 
+    <!-- FOOTER -->
     <div class="row">
       <div class="col-sm-12 footer">
           <div class="row">
@@ -180,11 +261,11 @@
           </div>
           <div class="row">
             <div class="col-sm-2 col-sm-offset-1">
-              <i class="fa fa-facebook fa-lg"></i>
-              <i class="fa fa-twitter fa-lg"></i>
-              <i class="fa fa-linkedin fa-lg"></i>
-              <i class="fa fa-apple fa-lg"></i>
-              <i class="fa fa-play fa-lg"></i>
+              <i class="fa fa-facebook fa-lg fa-icon"></i>
+              <i class="fa fa-twitter fa-lg fa-icon"></i>
+              <i class="fa fa-linkedin fa-lg fa-icon"></i>
+              <i class="fa fa-apple fa-lg fa-icon"></i>
+              <i class="fa fa-play fa-lg fa-icon"></i>
             </div>
             <div class="col-sm-2">
               <ul class="style-list style-text">
@@ -219,10 +300,8 @@
             <div class="col-sm-10 col-sm-offset-1 footer-logo">
               <hr class="line-footer">
               <p>© 2017 LabCar technologies Inc.</p>
-
             </div>
           </div>
-
       </div>
     </div>
 
