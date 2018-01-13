@@ -1,0 +1,300 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Nav bar */
+.navbar{
+	background-color: white;
+	border: none;
+	padding: 3rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #2b2b2b;
+	font-size: 1.2em;
+	margin-right: 1.3em;
+}
+
+.img-responsive {
+	max-width: 101.2%;
+}
+
+/* Section Disfruta del viaje */
+.intro {
+	background-color: #f7b617;
+	color: #fff;
+	margin-top: -35em;
+	padding: 2.5em;
+}
+
+.text-inline {
+	display: inline-block;
+}
+
+.logo-blanco {
+	width: 25%;
+	margin-left: 0.5em;
+	margin-top: -1.1em;
+}
+
+.style-h2 {
+    margin-top: -0.2em;
+}
+
+.line-or {
+    width: 100%;
+    margin-top: 1em;
+    padding: 0;
+    text-align: center;
+}
+.line-or:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 0.10rem;
+    content: " ";
+    text-shadow: none;
+    background-color: white;
+    width: 140px;
+}
+.line-or:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 0.10rem;
+    content: " ";
+    text-shadow: none;
+    background-color: white;
+    width: 140px;
+}
+
+.btn-intro {
+	margin-top: 0.5em;
+}
+
+.info {
+	background-color: #f7b617;
+	padding: 4rem;
+}
+
+
+.border-white {
+	border: 0.10rem solid white;
+	padding: 3rem;
+}
+
+.text-info {
+	color: white;
+	font-size: 1.30em;
+}
+
+.iphone {
+	width: 240%;
+}
+
+.drive {
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	margin-top: -26.75em;
+	padding: 5em 2.5em;
+}
+
+.btn-become-driver {
+	background-color: #f7b617;
+	color: #fff;
+	border: none;
+}
+
+.tarifa {
+	color: white;
+}
+
+.style-text {
+	font-size: 1.2em;
+
+}
+
+.footer > .style-text{
+		margin-left: -2em;
+}
+
+.form-tarifa {
+  margin: -1.750em 1.875em;
+	border: 0.10rem solid white;
+}
+
+.form-tarifa::placeholder {
+	color: white;
+}
+
+.input-group,
+.btn-route {
+	margin-top: 2em;
+}
+
+.line-footer {
+	margin-top: -1em;
+}
+
+
+
+#map {
+	height: 500px;
+	width: 100%;
+
+}
+
+.map {
+	border: 0.10rem solid white;
+	padding: 1rem;
+}
+
+.glyphicon,
+.form-control {
+	background-color: transparent;
+}
+
+.footer {
+	background-color: #2B2B2B;
+	color: #fff;
+
+}
+
+.footer-logo {
+	margin-top: 3em;
+}
+
+
+.style-list {
+	list-style: none;
+	line-height: 3em;
+}
+
+.download {
+	margin-top: 13em;
+}
+.download > img {
+	margin-top: 3em;
+}
+.fa {
+	margin-left: 0.25em;
+	margin-top: 22.7em;
+}
+ .submit2 {
+	 width: 100%;
+ }
+
+ .tt {
+	 color: #2b2b2b;
+	 text-align: center;
+	 margin-top: 0.7em;
+ }
+
+/* Login Modal */
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color: #f7b617;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.login-help{
+  font-size: 12px;
+}
+
+/*Register modal*/
+
+.center {
+    margin-top:50px;
+}
+
+.modal-header {
+	padding-bottom: 5px;
+}
+
+.modal-footer {
+    	padding: 0;
+	}
+
+.modal-footer .btn-group button {
+	height:40px;
+	border-top-left-radius : 0;
+	border-top-right-radius : 0;
+	border: none;
+	border-right: 1px solid #ddd;
+}
+
+.modal-footer .btn-group:last-child > button {
+	border-right: 0;
+}
