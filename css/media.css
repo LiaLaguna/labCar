@@ -1,0 +1,62 @@
+/*** MOBILE ***/
+@media screen and (max-width: 768px) {
+  .option2-footer,
+  .enjoy-ride-txt-screen,
+  .text-info,
+  .social-icons,
+  .download {
+  	display: none;
+  }
+
+  .enjoy-ride-txt-mobile,
+  .new-app-txt-mobile {
+    display: block;
+  }
+
+  .enjoy-ride {
+  	margin-top: 7em;
+  }
+
+  .enjoy-ride-yellow{
+    margin-top: -23em;
+    height: 18em;
+  }
+
+  .limit {
+    margin-top: -18.2em;
+    height: 18em;
+    padding: 2em 4em;
+  }
+
+  .map {
+    margin-top: 3em;
+  }
+
+  .social-icons-media {
+    display: block;
+    margin-top: -29em;
+  }
+
+  .download-media {
+    margin-top: 3em;
+  }
+
+  .download-media > img {
+    margin-top: 1.5em;
+  }
+}
+
+/*** DESKTOP ***/
+@media screen and (min-width: 769px) {
+  .option2-footer,
+  .enjoy-ride-txt-screen,
+  .text-info,
+  .social-icons  {
+  	display: block;
+  }
+
+  .enjoy-ride-txt-mobile,
+  .new-app-txt-mobile,
+  .social-icons-media {
+    display: none;
+  }

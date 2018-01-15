@@ -75,7 +75,7 @@
 	padding: 4rem;
 }
 
-
+/*** SECTION NEW APP ***/
 .border-white {
 	border: 0.10rem solid white;
 	padding: 3rem;
@@ -90,11 +90,23 @@
 	width: 240%;
 }
 
-.drive {
+.new-app-txt-mobile {
+	text-align: center;
+	color: white;
+	margin-top: -2em;
+}
+
+/*** SECTION CONDUCE CUANDO QUIERAS ***/
+.limit {
 	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
-	margin-top: -26.75em;
-	padding: 5em 2.5em;
+	margin-top: -28.4em;
+	padding: 5em 4em;
+	height: 28.5em;
+}
+
+.limit > .contenido {
+	height: 100%;
 }
 
 .btn-become-driver {
@@ -103,6 +115,7 @@
 	border: none;
 }
 
+/*** SECTION TARIFA/MAPA ***/
 .tarifa {
 	color: white;
 }
@@ -177,6 +190,7 @@
 	margin-left: 0.25em;
 	margin-top: 22.7em;
 }
+
 
 /*** LOGIN MODAL ***/
 .loginmodal-container {
